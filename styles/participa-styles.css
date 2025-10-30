@@ -1,23 +1,24 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #fdfdfd; 
+    background-color: #fdfdfd;
     color: #333;
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding: 40px 20px;
 }
 
-.main-header, .content-section {
+.main-header,
+.content-section {
     text-align: center;
-    max-width: 800px; 
+    max-width: 800px;
     width: 100%;
 }
 
 
 h1 {
-    font-size: 3em; 
+    font-size: 3em;
     font-weight: 300;
     color: #2c3e50;
     margin-bottom: 15px;
@@ -42,10 +43,11 @@ p {
 .categories {
     margin-top: 40px;
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap; 
-    gap: 12px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
 }
+
 .btn {
     text-decoration: none;
     color: white;
@@ -63,13 +65,30 @@ p {
     opacity: 0.9;
 }
 
-.btn-economic     { background-color: #c87620; }
-.btn-translations { background-color: #3c993f; }
-.btn-support      { background-color: #c0392b; }
-.btn-web          { background-color: #8e44ad; }
-.btn-desktop      { background-color: #2980b9; }
-.btn-design       { background-color: #7f8c8d; }
+.btn-economic {
+    background-color: #c87620;
+}
+
+.btn-translations {
+    background-color: #3c993f;
+}
+
+.btn-support {
+    background-color: #c0392b;
+}
+
+.btn-web {
+    background-color: #8e44ad;
+}
+
+.btn-desktop {
+    background-color: #2980b9;
+}
+
+.btn-design {
+    background-color: #7f8c8d;
+}
 
 .content-section {
-    margin-top: 80px; 
+    margin-top: 80px;
 }

@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
 }
+
 nav {
     position: absolute;
     left: 30px;
     top: 20px;
 }
-nav > a {
+
+nav>a {
     text-decoration: none;
     margin-left: 30px;
     color: #333333;
     font-family: 'Inter', sans-serif;
 }
+
 .logo {
     position: absolute;
     margin-left: 10px;
     top: -5px;
     right: 450px;
 }
+
 .seccion1 {
     top: 30px;
     position: relative;
@@ -28,36 +33,43 @@ nav > a {
     height: 830px;
     text-align: center;
 }
+
 .div-img {
     position: relative;
 }
+
 .img-esc {
     position: absolute;
     top: 10px;
     left: 468px;
 }
-.seccion1 > p {
+
+.seccion1>p {
     font-family: 'Inter', sans-serif;
     color: #333333;
     font-size: larger;
 }
-.seccion1 > h1 {
+
+.seccion1>h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 70px;
 }
+
 .precios {
     position: relative;
     margin-top: 20px;
 }
-.precios > p {
+
+.precios>p {
     position: absolute;
     font-family: 'Inter', sans-serif;
     color: #333333;
     font-size: larger;
     left: 320px;
 }
-.precios > a {
+
+.precios>a {
     position: absolute;
     text-decoration: none;
     margin-left: 20px;
@@ -69,19 +81,24 @@ nav > a {
     font-family: 'Inter', sans-serif;
     top: 12px;
 }
+
 .a10 {
     left: 520px;
 }
+
 .a20 {
     left: 585px;
 }
+
 .a30 {
     left: 650px;
 }
+
 .aPers {
     left: 715px;
 }
-.precios > button {
+
+.precios>button {
     position: absolute;
     left: 970px;
     top: 5px;
@@ -93,21 +110,25 @@ nav > a {
     border-radius: 3px;
     border: #2d8dce solid 2px;
 }
-.precios > span {
+
+.precios>span {
     position: absolute;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
 }
+
 .sp1 {
     top: 65px;
     left: 990px;
     color: #333333;
 }
+
 .sp2 {
     top: 85px;
     left: 910px;
     color: #2d8dce;
 }
+
 .seccion2 {
     position: relative;
     background-color: #f7f7f7;
@@ -115,40 +136,47 @@ nav > a {
     width: 100%;
     height: 900px;
 }
+
 .anuncio {
     position: absolute;
     top: 60px;
 }
-.anuncio > h1 {
+
+.anuncio>h1 {
     font-family: 'Inter', sans-serif;
-    font-weight:200
+    font-weight: 200
 }
-.anuncio > p {
+
+.anuncio>p {
     position: relative;
     font-family: 'Inter', sans-serif;
     width: 46%;
     left: 400px;
     line-height: 1.5;
 }
-.anuncio > a {
+
+.anuncio>a {
     position: relative;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: #2d8dce;
 }
+
 .mapas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
 .mp {
-  margin-top: 500px;
-  padding: 15px 20px;
-  border-radius: 8px;
-  background-color: #f7f7f7;
-  height: 300px;
+    margin-top: 500px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    height: 300px;
 }
-.mp > h3 { 
+
+.mp>h3 {
     position: relative;
     margin-top: 0;
     font-family: 'Inter', sans-serif;
@@ -158,23 +186,27 @@ nav > a {
     color: #333333;
     text-align: left;
 }
-.mp > p {
+
+.mp>p {
     position: relative;
     margin-top: -15px;
     font-family: 'Inter', sans-serif;
     color: #888686;
     left: -90px;
 }
-.img-Danielle{
+
+.img-Danielle {
     position: relative;
 }
-.img-Danielle > img {
+
+.img-Danielle>img {
     position: absolute;
     border-radius: 50%;
     left: 30px;
     border: #333333 solid 2px;
 }
-.img-Danielle > h3 {
+
+.img-Danielle>h3 {
     position: relative;
     font-family: 'Inter', sans-serif;
     font-size: small;
@@ -182,13 +214,15 @@ nav > a {
     left: -110px;
     top: 8px;
 }
-.img-Danielle > p {
-     position: relative;
+
+.img-Danielle>p {
+    position: relative;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     color: #777676;
     left: -68px;
 }
+
 .seccion3 {
     position: relative;
     background: linear-gradient(to right, #551d91, #aa63d4);
