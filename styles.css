@@ -1,8 +1,17 @@
+nav {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
 nav > a {
     text-decoration: none;
-    margin-left: 50px;
-    color: rgb(46, 41, 41);
+    margin-left: 30px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
 }
 .logo {
+    position: absolute;
     margin-left: 10px;
+    top: -5px;
+    right: 450px;
 }
