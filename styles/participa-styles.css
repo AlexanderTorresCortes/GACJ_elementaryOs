@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fdfdfd;
@@ -26,7 +28,7 @@ nav.principal>a {
     position: absolute;
     margin-left: 10px;
     top: -5px;
-    right: 430px;
+    right: 445px;
     
 }
 

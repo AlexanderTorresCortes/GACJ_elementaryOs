@@ -1,31 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #fdfdfd;
+    background: linear-gradient(135deg, #462982 0%, #7249ae 50%, #a46ce1 100%); 
     color: #333;
     margin: 0;
+    padding-top: 75px; 
+    min-height: 100vh;
+    padding: 0; 
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+header {
+    width: 100%;
+    background: linear-gradient(90deg, #5c319a 0%, #5c319a 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+nav {
+    position: relative;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 40px 20px;
+    justify-content: space-between; 
+    padding: 10px 0px; 
+    max-width: 100%;
 }
 
-nav.principal {
-    position: absolute;
-    left: 30px;
-    top: 20px;
-}
 
-nav.principal>a {
-    text-decoration: none;
-    margin-left: 30px;
-    color: #333333;
-    font-family: 'Inter', sans-serif;
+.nav-izq {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    position: absolute;
-    margin-left: 10px;
-    top: -5px;
-    right: 430px;
-    
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    width: 35px;
+    filter: brightness(0) invert(1); 
+}
+
+.nav-izq > a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.nav-der {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.social-icon {
+    width: 15px;
+    height: 15px;
+    transition: opacity 0.2s;
+    filter: brightness(0) invert(1); 
+}
+
+.social-icon:hover {
+    opacity: 1;
+}
+
+
+
+
