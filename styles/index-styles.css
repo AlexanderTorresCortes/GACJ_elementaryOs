@@ -266,8 +266,448 @@ nav {
 
 .seccion3 {
     position: relative;
-    background: linear-gradient(to right, #551d91, #aa63d4);
+    background: linear-gradient(to bottom right, #551d91, #aa63d4);
     text-align: center;
     width: 100%;
     height: 900px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.SCA {
+    position: absolute;
+    width: 50%;
+    padding: 15%;
+    top: 10%;
+}
+.SCA > h1 {
+    position: absolute;
+    font-size: 42px;
+    width: 520px;
+    text-align: left;
+}
+.CA {
+    font-weight: bolder;
+}
+.SCA > img {
+    position: absolute;
+    top: 25%;
+    left: 37%;
+}
+.SCA > p {
+    position: absolute;
+    width: 42%;
+    top: 78%;
+    text-align: left;
+    line-height: 1.5;
+}
+.img-harvey {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 4%;
+}
+.btnCA {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 3px;
+    transition: opacity .2s ease;
+}
+.btnCA:hover {
+    opacity: .6;
+}
+.btnCA1 {
+    top: 120%;
+    left: 21%;
+    background-color: white;
+    color: #8a61b3;
+}
+.btnCA2 {
+    top: 130%;
+    left: 25%;
+    color: white;
+    background-color: #793da7;
+}
+.btnCA3 {
+    top: 140%;
+    left: 27.5%;
+    color: white;
+    background-color: #793da7;
+}
+.seccion4 {
+    position: relative;
+    width: 100%;
+    height: 900px;
+
+}
+.seccion4 > section {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #333333;;
+}
+.productividad {
+    height: 40%;
+}
+.animaciones {
+    height: 60%;
+}
+.productividad > h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    width: 700px;
+}
+.productividad > p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    width: 700px;
+    line-height: 1.5;
+}
+.anima {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: 85%;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+}
+.an2 {
+    margin-left: 20px;
+    top: -47px;
+}
+.an3 {
+    margin-left: 20px;
+    top: -47px;
+}
+.anima > p {
+    position: absolute;
+    width: 370px;
+    text-align: left;
+    line-height: 1.5;
+    left: 50%;
+    top: 79%;
+    transform: translate(-50%, -50%);
+}
+.anima > h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.multitask-viewport {
+    width: 90%; 
+    height: 250px;
+    margin: 20px auto; 
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #333333;
+    overflow: hidden; 
+    position: relative; 
+}
+.multitask-viewport img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation-name: slide-multitask;
+    animation-duration: 6s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+}
+@keyframes slide-multitask {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+    20% {
+        transform: translateX(0) scale(0.9);
+    }
+    45% {
+        transform: translateX(-110%) scale(0.9); 
+    }
+    45.01% {
+        transform: translateX(110%) scale(0.9);
+    }
+    75% {
+        transform: translateX(0) scale(0.9);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+
+.miniscreen-viewport {
+    width: 90%;
+    height: 250px; 
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    position: relative; 
+    overflow: hidden; 
+}
+.miniscreen-viewport .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+.miniscreen-viewport .miniscreen-img {
+    position: absolute;
+    z-index: 2; 
+    bottom: 10px;           
+    right: 10px; 
+    width: 80px; 
+    height: 50px;       
+    border: 2px solid rgba(255, 255, 255, 0.8); 
+    border-radius: 4px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); 
+    object-fit: cover; 
+    animation-name: miniscreen-grow;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s; 
+}
+@keyframes miniscreen-grow {
+    0% {
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+        height: 50px;
+    }
+    50% {
+        bottom: 50%; 
+        right: 50%; 
+        width: 200px; 
+        height: 120px; 
+        transform: translate(50%, 50%); 
+    }
+    100% {
+        bottom: 10p x;
+        right: 10px;
+        width: 80px;
+        height: 50px;
+    }
+}
+.donotdisturb-viewport {
+    width: 90%;
+    height: 250px; 
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    position: relative; 
+    overflow: hidden;
+}
+
+.donotdisturb-viewport .desktop-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.notification {
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-left: 4px solid #4CAF50; 
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 5; 
+    opacity: 1; 
+    animation-name: donotdisturb-notifications; 
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.notification-1 {
+    top: 15px;
+    right: 15px;
+}
+
+.notification-2 {
+    top: 60px;
+    right: 10px;
+}
+
+.notification-3 {
+    top: 105px;
+    right: 20px;
+}
+@keyframes donotdisturb-notifications {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    30% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80.01% {
+        opacity: 0;
+        transform: translateX(0); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.seccion5 {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/montañas.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.azul-arriba {
+    position: relative;
+    width: 100%;
+    height: 650px;   
+    z-index: 0;
+    background-color: rgba(21, 76, 110, 0.5);
+    text-shadow: 1px 1px #333;
+}
+.aza1 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    height: 40%;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.aza1 > h2 {
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.aza1 > p {
+    position: absolute;
+    line-height: 1.5;
+    font-size: 18px;
+    width: 650px;
+    text-align: left;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.aza2 {
+    position: relative;
+    z-index: 3;
+    height: 30%;
+}
+.aza2 > section {
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+    top: 60px;
+    left: 23%;   
+}
+.aza2 > section > a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    top: 25px;
+    left: -50%;
+}
+.aza3 {
+    position: relative;
+    z-index: 3;
+    height: 30%;
+}
+.aza3 > section {
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+    top: 60px;
+    left: 23%;   
+}
+.aza3 > section > a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    top: 25px;
+    left: -50%;
+}
+.seccion6 {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    font-family: 'Inter';
+}
+.s61 {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.s61 > div > p {
+    width: 500px;
+}
+.s61 > h3 {
+    position: absolute;
+    font-size: 35px;
+    font-weight: 400;
+    left: 20%;
+    top: 65px;
+}
+.s61 > img {
+    margin-top: 10px;
+}
+.s61 > div > h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.s61 > div > p {
+    margin-left: 25px;
+    line-height: 1.5;
+}
+.s61 > div > img {
+    position: absolute;
+    width: 20px;
+}
+.s62 {
+    position: absolute;
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    left: 40%;
+    padding-top: 80px;
 }
