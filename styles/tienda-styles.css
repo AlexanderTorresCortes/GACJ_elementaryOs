@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1A1A1A;
+}
+
+header {
+    padding: 8px 8px;
+    background-color: #64BAFF;
+}
+
+header.Barra2 {
+    padding: 15px 15px;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 2px;
+    filter: brightness(3.6) contrast(2);
+}
+
+.nav-links {
+    position: absolute;
+    left: 50px;
+    top: 17px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    margin-left: 12px;
+}
+
+.nav-links a:hover {
+    color: #9d9c9c;
+}
+
+.RedesSociales {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.RedesSociales .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    margin-right: 12px;
+    opacity: 1;
+}
+
+.RedesSociales .icon:hover {
+    opacity: 0.7;
+}
+
+.navProductos {
+    display: flex;
+    gap: 20px;
+}
+
+.navProductos a {
+    text-decoration: none;
+    color: #D4D4D4;
+    font-size: 15px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.navProductos a:hover {
+    color: #64BAFF;
+}
+
+.barraDerecha {
+    display: flex;
+    margin-left: auto;
+}
+
+.barraDerecha a {
+    text-decoration: none;
+    color: #D4D4D4;
+    font-size: 15px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.barraDerecha a:hover {
+    color: #64BAFF;
+}
+
+.inicio {
+    padding: 50px 20px 40px;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio > div {
+    max-width: 950px; 
+    width: 100%;
+}
+
+.inicio h1 {
+    color: #D4D4D4;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.textoInicio p {
+    color: #D4D4D4;
+    font-size: 24px;
+}
+
+.Dispositivos {
+    padding: 50px 20px 40px;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dispositivos > div {
+    max-width: 950px; 
+    width: 100%;
+}
+
+.Dispositivos h2 {
+    color: #A5A5A5;
+    font-size: 37px;
+}
+
+.txtDispositivos p {
+    color: #d4d4d4;
+    font-size: 18px;
+}
+.tiendas {
+    padding: 30px 20px 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-tiendas {
+    max-width: 1100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+
+.tarjeta-tienda {
+    padding: 30px 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-tienda h3 {
+    color: #AFAFAF;
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    border-bottom: 3px solid#D4D4D4;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarjeta-tienda .flecha {
+    font-weight: 300;
+    margin-left: 8px;
+    cursor: pointer; 
+    transition: transform 0.3s ease;
+}
+.tarjeta-tienda .flecha:hover{
+transform: translateX(5px);
+}
+
+.tarjeta-tienda p {
+    color: #D4D4D4;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.leyenda {
+    color: #A5A5A5;
+    font-size: 14px;
+    text-align: left;
+    max-width: 1200px;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .contenedor-tiendas {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
