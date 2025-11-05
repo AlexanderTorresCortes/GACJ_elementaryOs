@@ -649,7 +649,7 @@ nav {
 .aza3 > section {
     display: inline-block;
     position: relative;
-    margin-left: 40px;
+    margin-left: 25px;
     top: 60px;
     left: 23%;   
 }
@@ -797,7 +797,7 @@ nav {
 .seccion8 {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 720px;
     font-family: 'Inter';
     color: #333;
 }
@@ -825,4 +825,121 @@ nav {
 .s82 > p {
     font-size: 21px;
     width: 550px;
+}
+.seccion9 {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    font-family: 'Inter';
+    color: white;
+    background: radial-gradient(circle, #273444, #171d26);
+}
+.seccion9 > section {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    top: 50px;
+}
+.s91 {
+    height: 60%;
+}
+.s91 > h1 {
+    position: absolute;
+    font-size: 50px;
+    width: 700px;
+    left: 50%;
+    top: 20%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.s91 > p {
+    position: absolute;
+    font-size: larger;
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.s91 > a {
+    position: absolute;
+    text-decoration: none;
+    color: #2d8dce;
+    left: 50%;
+    top: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.s92 {
+    padding: 70px;
+    height: 40%;
+}
+.s92 > div {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 90%;
+}
+.s92 > div >h4{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%, -50%);
+}
+.s92 > div >p{
+    position: absolute;
+    font-size: large;
+    top: 10%;
+    width: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
+}
+.s92 > div >svg{
+    position: absolute;
+    width: 25px;
+    top: -26%;
+    left: 25%;
+    color: #333;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    font-family: 'Inter';
+    color: #333;
+}
+footer > section > img {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer > section > h1 {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
+footer > section > p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+}
+footer > section > a {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    background-color: #2d8dce;
+    border-radius: 5px;
 }
