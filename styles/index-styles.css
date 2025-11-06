@@ -8,7 +8,7 @@ body {
 
 header {
     width: 100%;
-    background: #ffffff; 
+    background: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,8 +19,8 @@ nav {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    padding: 10px 0px; 
+    justify-content: space-between;
+    padding: 10px 0px;
     max-width: 100%;
 }
 
@@ -39,7 +39,7 @@ nav {
     width: 35px;
 }
 
-.nav-izq > a {
+.nav-izq>a {
     text-decoration: none;
     margin-left: 30px;
     color: #333333;
@@ -183,6 +183,15 @@ nav {
     top: 60px;
 }
 
+.flecha {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+a:hover .flecha {
+    transform: translateX(5px);
+}
+
 .anuncio>h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 200
@@ -273,39 +282,46 @@ nav {
     color: white;
     font-family: 'Inter', sans-serif;
 }
+
 .SCA {
     position: absolute;
     width: 50%;
     padding: 15%;
     top: 10%;
 }
-.SCA > h1 {
+
+.SCA>h1 {
     position: absolute;
     font-size: 42px;
     width: 520px;
     text-align: left;
 }
+
 .CA {
     font-weight: bolder;
 }
-.SCA > img {
+
+.SCA>img {
     position: absolute;
     top: 25%;
     left: 37%;
 }
-.SCA > p {
+
+.SCA>p {
     position: absolute;
     width: 42%;
     top: 78%;
     text-align: left;
     line-height: 1.5;
 }
+
 .img-harvey {
     position: absolute;
     width: 50%;
     left: 50%;
     top: 4%;
 }
+
 .btnCA {
     position: absolute;
     font-family: 'Inter', sans-serif;
@@ -316,46 +332,56 @@ nav {
     border-radius: 3px;
     transition: opacity .2s ease;
 }
+
 .btnCA:hover {
     opacity: .6;
 }
+
 .btnCA1 {
     top: 120%;
     left: 21%;
     background-color: white;
     color: #8a61b3;
 }
+
 .btnCA2 {
     top: 130%;
     left: 25%;
     color: white;
     background-color: #793da7;
 }
+
 .btnCA3 {
     top: 140%;
     left: 27.5%;
     color: white;
     background-color: #793da7;
 }
+
 .seccion4 {
     position: relative;
     width: 100%;
     height: 900px;
 
 }
-.seccion4 > section {
+
+.seccion4>section {
     position: relative;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    color: #333333;;
+    color: #333333;
+    ;
 }
+
 .productividad {
     height: 40%;
 }
+
 .animaciones {
     height: 60%;
 }
-.productividad > h1{
+
+.productividad>h1 {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -363,7 +389,8 @@ nav {
     font-size: 45px;
     width: 700px;
 }
-.productividad > p {
+
+.productividad>p {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -372,6 +399,7 @@ nav {
     width: 700px;
     line-height: 1.5;
 }
+
 .anima {
     display: inline-block;
     position: relative;
@@ -381,15 +409,18 @@ nav {
     margin-top: 35px;
     font-family: 'Inter', sans-serif;
 }
+
 .an2 {
     margin-left: 20px;
     top: -47px;
 }
+
 .an3 {
     margin-left: 20px;
     top: -47px;
 }
-.anima > p {
+
+.anima>p {
     position: absolute;
     width: 370px;
     text-align: left;
@@ -398,46 +429,55 @@ nav {
     top: 79%;
     transform: translate(-50%, -50%);
 }
-.anima > h4 {
+
+.anima>h4 {
     font-size: 20px;
     margin-top: 20px;
     font-weight: 400;
 }
+
 .multitask-viewport {
-    width: 90%; 
+    width: 90%;
     height: 250px;
-    margin: 20px auto; 
+    margin: 20px auto;
     border: 1px solid #ddd;
     border-radius: 6px;
     background-color: #333333;
-    overflow: hidden; 
-    position: relative; 
+    overflow: hidden;
+    position: relative;
 }
+
 .multitask-viewport img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     animation-name: slide-multitask;
-    animation-duration: 6s; 
-    animation-timing-function: ease-in-out; 
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+
 @keyframes slide-multitask {
     0% {
         transform: translateX(0) scale(1);
     }
+
     20% {
         transform: translateX(0) scale(0.9);
     }
+
     45% {
-        transform: translateX(-110%) scale(0.9); 
+        transform: translateX(-110%) scale(0.9);
     }
+
     45.01% {
         transform: translateX(110%) scale(0.9);
     }
+
     75% {
         transform: translateX(0) scale(0.9);
     }
+
     100% {
         transform: translateX(0) scale(1);
     }
@@ -446,40 +486,43 @@ nav {
 
 .miniscreen-viewport {
     width: 90%;
-    height: 250px; 
+    height: 250px;
     margin: 20px auto;
     border: 1px solid #ddd;
     border-radius: 6px;
     background-color: #f9f9f9;
-    position: relative; 
-    overflow: hidden; 
+    position: relative;
+    overflow: hidden;
 }
+
 .miniscreen-viewport .background-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    position: absolute; 
+    object-fit: cover;
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 1; 
+    z-index: 1;
 }
+
 .miniscreen-viewport .miniscreen-img {
     position: absolute;
-    z-index: 2; 
-    bottom: 10px;           
-    right: 10px; 
-    width: 80px; 
-    height: 50px;       
-    border: 2px solid rgba(255, 255, 255, 0.8); 
-    border-radius: 4px; 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3); 
-    object-fit: cover; 
+    z-index: 2;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
     animation-name: miniscreen-grow;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-delay: 0.5s; 
+    animation-delay: 0.5s;
 }
+
 @keyframes miniscreen-grow {
     0% {
         bottom: 10px;
@@ -487,13 +530,15 @@ nav {
         width: 80px;
         height: 50px;
     }
+
     50% {
-        bottom: 50%; 
-        right: 50%; 
-        width: 200px; 
-        height: 120px; 
-        transform: translate(50%, 50%); 
+        bottom: 50%;
+        right: 50%;
+        width: 200px;
+        height: 120px;
+        transform: translate(50%, 50%);
     }
+
     100% {
         bottom: 10p x;
         right: 10px;
@@ -501,14 +546,15 @@ nav {
         height: 50px;
     }
 }
+
 .donotdisturb-viewport {
     width: 90%;
-    height: 250px; 
+    height: 250px;
     margin: 20px auto;
     border: 1px solid #ddd;
     border-radius: 6px;
     background-color: #f9f9f9;
-    position: relative; 
+    position: relative;
     overflow: hidden;
 }
 
@@ -521,19 +567,20 @@ nav {
     left: 0;
     z-index: 1;
 }
+
 .notification {
-    position: absolute; 
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #ccc;
-    border-left: 4px solid #4CAF50; 
+    border-left: 4px solid #4CAF50;
     border-radius: 4px;
     padding: 8px 12px;
     font-size: 12px;
     color: #333;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 5; 
-    opacity: 1; 
-    animation-name: donotdisturb-notifications; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+    opacity: 1;
+    animation-name: donotdisturb-notifications;
     animation-duration: 6s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -553,50 +600,59 @@ nav {
     top: 105px;
     right: 20px;
 }
+
 @keyframes donotdisturb-notifications {
     0% {
         opacity: 1;
         transform: translateX(0);
     }
+
     30% {
         opacity: 1;
         transform: translateX(0);
     }
+
     50% {
         opacity: 0;
         transform: translateX(100px);
     }
+
     80% {
         opacity: 0;
         transform: translateX(100px);
     }
+
     80.01% {
         opacity: 0;
-        transform: translateX(0); 
+        transform: translateX(0);
     }
+
     100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
+
 .seccion5 {
     position: relative;
     width: 100%;
     height: 650px;
     background-image: url(../img/montañas.jpg);
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
 }
+
 .azul-arriba {
     position: relative;
     width: 100%;
-    height: 650px;   
+    height: 650px;
     z-index: 0;
     background-color: rgba(21, 76, 110, 0.5);
     text-shadow: 1px 1px #333;
 }
+
 .aza1 {
     position: relative;
     z-index: 2;
@@ -605,13 +661,15 @@ nav {
     font-family: 'Inter', sans-serif;
     color: white;
 }
-.aza1 > h2 {
+
+.aza1>h2 {
     position: relative;
     top: 40px;
     font-size: 35px;
     font-weight: 400;
 }
-.aza1 > p {
+
+.aza1>p {
     position: absolute;
     line-height: 1.5;
     font-size: 18px;
@@ -621,19 +679,22 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .aza2 {
     position: relative;
     z-index: 3;
     height: 30%;
 }
-.aza2 > section {
+
+.aza2>section {
     display: inline-block;
     position: relative;
     margin-left: 40px;
     top: 60px;
-    left: 23%;   
+    left: 23%;
 }
-.aza2 > section > a {
+
+.aza2>section>a {
     position: relative;
     text-decoration: none;
     color: white;
@@ -641,19 +702,22 @@ nav {
     top: 25px;
     left: -50%;
 }
+
 .aza3 {
     position: relative;
     z-index: 3;
     height: 30%;
 }
-.aza3 > section {
+
+.aza3>section {
     display: inline-block;
     position: relative;
     margin-left: 25px;
     top: 60px;
-    left: 23%;   
+    left: 23%;
 }
-.aza3 > section > a {
+
+.aza3>section>a {
     position: relative;
     text-decoration: none;
     color: white;
@@ -661,12 +725,14 @@ nav {
     top: 25px;
     left: -50%;
 }
+
 .seccion6 {
     position: relative;
     width: 100%;
     height: 700px;
     font-family: 'Inter';
 }
+
 .s61 {
     position: absolute;
     display: inline-block;
@@ -676,33 +742,40 @@ nav {
     padding-left: 80px;
     padding-top: 80px;
 }
-.s61 > div > p {
+
+.s61>div>p {
     width: 500px;
 }
-.s61 > h3 {
+
+.s61>h3 {
     position: absolute;
     font-size: 35px;
     font-weight: 400;
     left: 20%;
     top: 65px;
 }
-.s61 > img {
+
+.s61>img {
     margin-top: 10px;
 }
-.s61 > div > h4 {
+
+.s61>div>h4 {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
     margin-left: 30px;
 }
-.s61 > div > p {
+
+.s61>div>p {
     margin-left: 25px;
     line-height: 1.5;
 }
-.s61 > div > img {
+
+.s61>div>img {
     position: absolute;
     width: 20px;
 }
+
 .s62 {
     position: absolute;
     display: inline-block;
@@ -711,6 +784,7 @@ nav {
     left: 40%;
     padding-top: 80px;
 }
+
 .seccion7 {
     position: relative;
     width: 100%;
@@ -718,15 +792,18 @@ nav {
     font-family: 'Inter';
     color: #333;
 }
-.seccion7 > section {
+
+.seccion7>section {
     width: 100%;
     height: 50%;
 }
+
 .s71 {
     position: relative;
     text-align: center;
 }
-.s71 > h2 {
+
+.s71>h2 {
     position: absolute;
     font-size: 50px;
     width: 700px;
@@ -734,35 +811,40 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.s71 > p {
+
+.s71>p {
     position: absolute;
     font-size: larger;
     top: 60%;
     width: 700px;
     left: 50%;
     transform: translate(-50%, -50%);
-    line-height: 1.5;  
-    font-weight: 300; 
+    line-height: 1.5;
+    font-weight: 300;
 }
-.s71 > a {
+
+.s71>a {
     position: absolute;
     top: 85%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     text-decoration: none;
     color: #2d8dce;
 }
+
 .s72 {
     position: relative;
 }
-.s72 > div {
+
+.s72>div {
     display: inline-block;
     position: absolute;
     width: 50%;
     height: 100%;
     z-index: 2;
 }
-.s72 > div > h3 {
+
+.s72>div>h3 {
     position: absolute;
     font-size: 40px;
     width: 600px;
@@ -772,18 +854,20 @@ nav {
     font-weight: 300;
     text-align: center;
 }
-.s72 > div > p {
+
+.s72>div>p {
     position: absolute;
     font-size: larger;
     top: 60%;
     width: 700px;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: justify;  
+    text-align: justify;
     line-height: 1.5;
     font-weight: 300;
 }
-.s72 > div > a {
+
+.s72>div>a {
     position: absolute;
     top: 85%;
     left: 50%;
@@ -791,9 +875,11 @@ nav {
     text-decoration: none;
     color: #2d8dce;
 }
+
 .d2s72 {
     left: 50%;
 }
+
 .seccion8 {
     position: relative;
     width: 100%;
@@ -801,31 +887,37 @@ nav {
     font-family: 'Inter';
     color: #333;
 }
-.seccion8 > section {
+
+.seccion8>section {
     position: absolute;
-    
+
     height: 100%;
     z-index: 2;
     color: #333;
 }
+
 .s81 {
     width: 60%;
     padding: 50px;
     padding-left: 80px;
 }
+
 .s82 {
     width: 40%;
     left: 60%;
     padding: 70px;
 }
-.s82 > h1 {
+
+.s82>h1 {
     font-size: 50px;
     width: 500px;
 }
-.s82 > p {
+
+.s82>p {
     font-size: 21px;
     width: 550px;
 }
+
 .seccion9 {
     position: relative;
     width: 100%;
@@ -834,17 +926,20 @@ nav {
     color: white;
     background: radial-gradient(circle, #273444, #171d26);
 }
-.seccion9 > section {
+
+.seccion9>section {
     display: inline-block;
     position: relative;
     width: 100%;
     z-index: 10;
     top: 50px;
 }
+
 .s91 {
     height: 60%;
 }
-.s91 > h1 {
+
+.s91>h1 {
     position: absolute;
     font-size: 50px;
     width: 700px;
@@ -853,7 +948,8 @@ nav {
     text-align: center;
     transform: translate(-50%, -50%);
 }
-.s91 > p {
+
+.s91>p {
     position: absolute;
     font-size: larger;
     width: 700px;
@@ -862,7 +958,8 @@ nav {
     text-align: center;
     transform: translate(-50%, -50%);
 }
-.s91 > a {
+
+.s91>a {
     position: absolute;
     text-decoration: none;
     color: #2d8dce;
@@ -871,17 +968,20 @@ nav {
     text-align: center;
     transform: translate(-50%, -50%);
 }
+
 .s92 {
     padding: 70px;
     height: 40%;
 }
-.s92 > div {
+
+.s92>div {
     display: inline-block;
     position: relative;
     width: 30%;
     height: 90%;
 }
-.s92 > div >h4{
+
+.s92>div>h4 {
     position: absolute;
     font-size: 20px;
     font-weight: 400;
@@ -889,7 +989,8 @@ nav {
     top: -30%;
     transform: translate(-50%, -50%);
 }
-.s92 > div >p{
+
+.s92>div>p {
     position: absolute;
     font-size: large;
     top: 10%;
@@ -898,13 +999,15 @@ nav {
     transform: translate(-50%, -50%);
     line-height: 1.5;
 }
-.s92 > div >svg{
+
+.s92>div>svg {
     position: absolute;
     width: 25px;
     top: -26%;
     left: 25%;
     color: #333;
 }
+
 footer {
     position: relative;
     width: 100%;
@@ -912,29 +1015,46 @@ footer {
     font-family: 'Inter';
     color: #333;
 }
-footer > section > img {
+
+footer>section {
+    position: relative;
+    width: 100%;
+}
+
+.fs1 {
+    height: 40%;
+}
+
+.fs2 {
+    height: 60%;
+}
+
+footer>section>img {
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-footer > section > h1 {
+
+footer>section>h1 {
     position: absolute;
-    top: 22%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 45px;
 }
-footer > section > p {
+
+footer>section>p {
     position: absolute;
-    top: 30%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: larger;
 }
-footer > section > a {
+
+footer>section>a {
     position: absolute;
-    top: 40%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
@@ -942,4 +1062,69 @@ footer > section > a {
     padding: 18px;
     background-color: #2d8dce;
     border-radius: 5px;
+}
+
+footer>section>div {
+    position: absolute;
+}
+
+.foo1 {
+    top: 20%;
+    left: 30%;
+}
+
+.foo2 {
+    top: 20%;
+    left: 60%;
+}
+
+.foo3 {
+    top: 55%;
+    left: 20%;
+}
+
+.foo4 {
+    top: 55%;
+    left: 45%;
+}
+
+.foo5 {
+    top: 55%;
+    left: 70%;
+}
+
+.footer-p {
+    position: absolute;
+    width: 350px;
+    left: -100px;
+    text-align: center;
+}
+
+footer>span {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    left: 7px;
+    color: #474747;
+}
+
+footer>img {
+    position: absolute;
+    bottom: 10px;
+    width: 20px;
+    left: 220px;
+}
+
+footer>div {
+    position: absolute;
+    width: 400px;
+    bottom: 10px;
+    right: -30px;
+}
+
+footer>div>a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #474747;
+    margin-left: 10px;
 }
