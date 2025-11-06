@@ -978,3 +978,41 @@ footer {
         gap: 15px;
     }
 }
+@media (max-width: 768px) {
+    header nav {
+        flex-wrap: wrap;
+    }
+    
+    .nav-links {
+        position: static;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    .RedesSociales {
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .navProductos {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 13px;
+    }
+    
+    .barraDerecha {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    header.Barra2 {
+        padding: 10px;
+    }
+}
